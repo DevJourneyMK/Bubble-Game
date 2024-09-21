@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(192, 239, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+#ptop{
+    width: 100%;
+    height: 60px;
+    background-color: #699b74;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20%;
+
+}
+.box{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(57, 174, 57);
+    font-weight: 600;
+    font-size: 15px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#pbtm{
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bubble{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    background-color: rgb(53, 129, 53);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(18, 69, 18);
+}
+#startButton {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#gameControls {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
